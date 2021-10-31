@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+     font-family: Arial, sans-serif;
+     color: #383838;
+}
+
+.container {
+    max-width: 1146px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    padding: 0 15px;
+}
+
+header {
+    background-color: #BEB7D8;
+    padding: 13.5px 0;
+
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts a {
+    color: #383838;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 25px;
+    display: inline-flex;
+    justify-content:  center;
+}
+
+.contacts a img {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.btn {
+    background-color: #006BA7;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+    width: 160px;
+    padding: 13.2px 0;
+    border-radius: 20px ;
+}
+
+.header-btn {
+    width: 180px;
+}
+
+.logo {
+    width: 150px;
+    height: 34px;
+}
+
+.courses-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url("img/laptop\ 1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.courses-info h1 {
+    font-size: 36px;
+    color: #006BA7;
+    margin: 0;
+}
+
+.courses-info p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.buttons {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-ligthgray {
+    background: #BEB7D8;
+}
+
+.education-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 70px 0 60px ;
+}
+
+.education-info .card {
+    width: 335px;
+    /* border: 1px solid black; */
+    
+}
+
+footer {
+   background-color: #383838; 
+    text-align: center;
+   color: #fff;
+   padding: 11px;
+}
+
+footer p {
+    margin: 0;
+}
+
+ @media screen and (max-width: 992px) {
+    .header {
+        height: 150px;
+        padding: 28px;
+    }
+      .logo {
+        margin-bottom: 20px;
+    } 
+    .header-info {
+    flex-direction: column;
+    
+    } 
+} 
+
+ @media screen and (max-width: 767px) {
+    .contacts {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+     
+    .header {
+        height: 210px;
+        padding: 20px;
+    }
+    .contacts a {
+        margin-bottom: 5px;
+    }
+    .header-btn {
+        margin-top: 15px ;
+    }
+    .courses-info {
+        width: 350px;
+    }
+    .courses-info h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .buttons {
+        flex-direction: column;
+        width: auto;
+
+    }
+    .buttons button {
+        margin-bottom: 12px;
+    }
+    .education-info {
+        padding: 20px 0;
+    }
+    footer {
+        font-size: 12px;
+    }
+} */
